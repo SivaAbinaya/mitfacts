@@ -4,13 +4,13 @@ var mit = utils.load('./mit.js', 'mit');
 describe('MIT', () => {
 
     test('Object properties present', () => {
-        expect(mit).toHaveProperty('city');
+        expect(mit).toHaveProperty('fruits');
         expect(mit).toHaveProperty('colors');
         expect(mit).toHaveProperty('mascot');
     });
 
     test('City match', () => {
-        expect(mit.city).toBe('Cambridge');
+        expect(mit.fruits).toBe('apple');
     });
 
     test('Colors match', () => {
